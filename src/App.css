@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
+body {
+  margin: 5px 125px 0px 100px;
+  padding: 0px;
+  height: 100%;
+  border: 1px solid rgb(213, 208, 208);
+  box-shadow: 0px 0px 2px 2px rgb(225, 223, 223);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-list {
+  list-style: none;
+  margin: 0px 50px 0px 5px;
+  padding: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+li {
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 30px;
+  transition: color 0.3s ease-in-out;
+}
+
+li:hover {
+  color: rgb(14, 14, 207);
+}
+
+.left-element {
+  margin-right: auto;
+  font-weight: bold;
+  cursor: auto;
+}
+.left-element:hover {
+  color: black;
+}
+.active {
+  color: rgb(14, 14, 207);
+}
+.div-container {
+  width: 25%;
+  margin-left: 40px;
+  clear: left;
+  height: 50%;
+}
+.div-container h4 {
+  color: #fdc435;
+}
+.HomepageImage {
+  float: right;
+  width: 50%;
+  position: absolute;
+  right: 130px;
+  top: 10px;
+}
+.projects-btn {
+  background-color: #fdc435;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.linkdin-btn {
+  margin: 12px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navContainer {
+  clear: both;
+  width: 100%;
+}
+
+.projectContainer {
+  width: 300px;
+  margin: 20px 800px 0px 0px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(97, 96, 96, 0.1);
+  margin: auto;
+  position: relative;
+}
+
+.projectContainer h1 {
+  text-align: center;
+  color: #333;
+  z-index: -1;
+  text-decoration: underline #fdc435;
+  padding-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #2fc20e;
+}
+.addbutton {
+  background-color: #fdc435;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 240px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.imagefooter {
+  width: 1035px;
+}
+.projects-heading {
+  margin-left: 450px;
+  text-decoration: underline #fdc435;
+  clear: both;
+}
+
+.projects-details {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-shadow: 1px 1px 10px 4px rgb(188, 185, 185);
+  align-items: center;
+  border-radius: 20px;
+}
+.projectsImage {
+  border-radius: 0px 20px 20px 0px;
+  margin: auto;
+  display: flex;
+}
+.ProjectsContainers {
+  padding: 10px;
+}
+.p1 {
+  margin: 40px;
+  width: 50%;
+}
+
+.projects-detailspen {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-shadow: 1px 1px 10px 4px rgb(188, 185, 185);
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.projectsImagepen {
+  border-radius: 20px 0px 0px 20px;
+  margin: auto;
+  display: flex;
+}
+.p2 {
+  margin: 40px;
+  align-items: center;
+  width: 50%;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.prjt3 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-shadow: 1px 1px 10px 4px rgb(188, 185, 185);
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.p3 {
+  margin: 40px;
+  width: 50%;
+}
+.img3 {
+  border-radius: 0px 20px 20px 0px;
+  margin: auto;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons {
+  margin-top: 100px;
+  text-align: center;
 }
